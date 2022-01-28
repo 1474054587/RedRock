@@ -9,9 +9,6 @@ public class Student_Management_System {
         boolean a = true;
         while(a){
             System.out.println("*********************************************");
-            System.out.println("欢迎使用学生管理系统（伪）");
-            System.out.println("该系统由没Offer没竞赛没科研没规划的双非本科");
-            System.out.println("逃课挂科延毕绩点2.0没什么存在感的重邮学子姜同远ctrlc+v");
             System.out.println("1：录入学生信息");
             System.out.println("2：查找学生信息");
             System.out.println("3：修改学生信息");
@@ -104,7 +101,7 @@ public class Student_Management_System {
                     if(!c){
                         System.out.println("该学号不存在");
                     }else{
-                        System.out.println("你已成功将该生踢出重邮了！");
+                        System.out.println("你已成功将该生踢出学校了！");
                     }
                     break;
                 case 5:
